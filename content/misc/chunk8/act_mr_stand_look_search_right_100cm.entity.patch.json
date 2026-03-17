@@ -1,0 +1,29 @@
+{
+	"tempHash": "001583E5EEB20D3E",
+	"tbluHash": "00F93172D603E85D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"3bd21b06f863b910",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eTurnOnActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3bd21b06f863b910",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eTurnOffActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
