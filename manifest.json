@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "Charc0al.NoHoldButtons",
 	"name": "No Hold Buttons",
 	"description": "Switches out a bunch of long-press button prompts with with normal press",
 	"authors": ["Charc0al"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.35",
 	"options": [
 		{
 			"name": "Blend",
@@ -63,5 +63,6 @@
 			"enabledByDefault": true,
 			"contentFolders": ["content/misc"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
 }
