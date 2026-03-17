@@ -1,9 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Charc0al.NoHoldButtons",
+	"name": "No Hold Buttons",
+	"description": "Switches out a bunch of long-press button prompts with with normal press",
+	"authors": ["Charc0al"],
+	"frameworkVersion": "2.25.1",
+	"contentFolders": ["content"]
 }
