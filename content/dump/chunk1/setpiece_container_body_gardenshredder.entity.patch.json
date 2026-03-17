@@ -12,6 +12,17 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"b44304642a0a5f09",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

@@ -15,6 +15,14 @@
 			"enabledByDefault": true,
 			"contentFolders": ["content/blend"]
 		},
+		{		{
+			"name": "Body Dump (not working yet)",
+			"tooltip": "Body dump crates and stuff",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/dump"]
+		},
 		{
 			"name": "Card Reader",
 			"tooltip": "Card reader",
@@ -38,6 +46,14 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/door"]
+		},
+		{
+			"name": "Freelancer",
+			"tooltip": "Misc freelancer stuff",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/freelancer"]
 		},
 		{
 			"name": "Exits",
