@@ -15,7 +15,7 @@
 			"enabledByDefault": true,
 			"contentFolders": ["content/blend"]
 		},
-		{		{
+		{
 			"name": "Body Dump (not working yet)",
 			"tooltip": "Body dump crates and stuff",
 			"group": "main",
