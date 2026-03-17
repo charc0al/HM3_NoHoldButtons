@@ -16,11 +16,11 @@
 			"contentFolders": ["content/blend"]
 		},
 		{
-			"name": "Card Reader",
-			"tooltip": "Card reader",
+			"name": "Card Reader (not working)",
+			"tooltip": "Card reader. This one isn't working yet, don't bother using it.",
 			"group": "main",
 			"type": "checkbox",
-			"enabledByDefault": true,
+			"enabledByDefault": false,
 			"contentFolders": ["content/cardreader"]
 		},
 		{
@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "Misc",
-			"tooltip": "Misc other prompts",
+			"tooltip": "Misc other hold prompts switched to single press. Too lazy to list them all here.",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
