@@ -16,14 +16,6 @@
 			"contentFolders": ["content/blend"]
 		},
 		{
-			"name": "Body Dump (not working yet)",
-			"tooltip": "Body dump crates and stuff",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": false,
-			"contentFolders": ["content/dump"]
-		},
-		{
 			"name": "Card Reader",
 			"tooltip": "Card reader",
 			"group": "main",
