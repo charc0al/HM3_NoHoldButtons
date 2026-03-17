@@ -6,5 +6,54 @@
 	"description": "Switches out a bunch of long-press button prompts with with normal press",
 	"authors": ["Charc0al"],
 	"frameworkVersion": "2.25.1",
-	"contentFolders": ["content"]
+	"options": [
+		{
+			"name": "Blend",
+			"tooltip": "Blend in",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/blend"]
+		},
+		{
+			"name": "Card Reader",
+			"tooltip": "Card reader",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/cardreader"]
+		},
+		{
+			"name": "Distractions",
+			"tooltip": "Distractions",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/distraction"]
+		},
+		{
+			"name": "Doors",
+			"tooltip": "Unlock doors etc",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/door"]
+		},
+		{
+			"name": "Exits",
+			"tooltip": "Exit mission prompts",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/exit"]
+		},
+		{
+			"name": "Misc",
+			"tooltip": "Misc other prompts",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/misc"]
+		}
+	]
 }
