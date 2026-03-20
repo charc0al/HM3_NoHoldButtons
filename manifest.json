@@ -62,6 +62,14 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/misc"]
+		},
+		{
+			"name": "Poison",
+			"tooltip": "Poison interactions",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/poison"]
 		}
 	],
 	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
