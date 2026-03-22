@@ -4,7 +4,44 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"41fa2b11c83b13d9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_aSubactions",
+						"value": [
+							"7baa6f8357e86c72",
+							"9e15dc58261c307d",
+							"c443c249b3709f64"
+						]
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"7baa6f8357e86c72",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9e15dc58261c307d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c443c249b3709f64",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eActionType",
