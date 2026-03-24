@@ -80,12 +80,36 @@
 			"contentFolders": ["content/poison"]
 		},
 		{
+			"name": "Item Dump",
+			"tooltip": "Containers where you can conceal items",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/itemdump"]
+		},
+		{
+			"name": "Talk",
+			"tooltip": "Talk to NPC interaction",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/talk"]
+		},
+		{
 			"name": "Stove - Gas Leak (new!)",
 			"tooltip": "Turn on/off stove is instant press now, gas leak uses fire button",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/gasleak"]
+		},
+		{
+			"name": "Generic",
+			"tooltip": "Controls a whole bunch of interactions in the game, too many to list. This will change most long press holds to single press interactions.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/generic"]
 		}
 	],
 	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
