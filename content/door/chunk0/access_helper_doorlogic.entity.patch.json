@@ -23,6 +23,31 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a8ea3ece8fadd40",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputFiberwire"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5b51167e20a6ed53",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6
