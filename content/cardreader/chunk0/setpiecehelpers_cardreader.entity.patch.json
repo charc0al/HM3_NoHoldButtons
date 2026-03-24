@@ -4,6 +4,20 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"498923c39dc4aee3",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"7baa6f8357e86c72",
 				{
 					"SetPropertyValue": {

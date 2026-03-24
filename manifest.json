@@ -16,8 +16,8 @@
 			"contentFolders": ["content/blend"]
 		},
 		{
-			"name": "Card Reader (not working)",
-			"tooltip": "Card reader. This only works when you have the keycard at the moment.",
+			"name": "Card Reader (new)!",
+			"tooltip": "Makes card reader instant press by switching it to the Open Door button",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": false,
@@ -32,8 +32,8 @@
 			"contentFolders": ["content/distraction"]
 		},
 		{
-			"name": "Doors",
-			"tooltip": "Unlock doors etc",
+			"name": "Doors (new!)",
+			"tooltip": "Switches long-press door interaction to the Open Door button for instant use",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -64,12 +64,28 @@
 			"contentFolders": ["content/misc"]
 		},
 		{
-			"name": "Poison (not working)",
-			"tooltip": "Poison interactions. Not working yet, don't use.",
+			"name": "Dump Body (not working yet)",
+			"tooltip": "Body container dump switched to Open Door key, possibly",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/dump"]
+		},
+		{
+			"name": "Poison (new!)",
+			"tooltip": "Switches poison to use the Open Door key for instant press interaction",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/poison"]
+		},
+		{
+			"name": "Stove - Gas Leak (new!)",
+			"tooltip": "Turn on/off stove is instant press now, gas leak uses fire button",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/gasleak"]
 		}
 	],
 	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
