@@ -32,7 +32,35 @@
 						"m_eInputAction",
 						{
 							"type": "EHM5GameInputFlag",
-							"value": "eGameInputFiberwire"
+							"value": "eGameInputActionPickup"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"163507e7af6b3b7c",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionShoot"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6f6d527afc661114",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionShoot"
 						}
 					]
 				}
