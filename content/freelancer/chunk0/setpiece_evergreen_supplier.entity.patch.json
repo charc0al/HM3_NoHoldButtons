@@ -1,13 +1,13 @@
 {
-	"tempHash": "00A19D77E0656B9D",
-	"tbluHash": "009D51AEE16341D1",
+	"tempHash": "0031D64438EDE508",
+	"tbluHash": "00EA78EDBE5A496E",
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"3bd21b06f863b910",
+				"c8e36d4105f5548d",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_eTurnOnActionType",
+						"property_name": "m_eActionType",
 						"value": "AT_USE_NORMAL"
 					}
 				}
@@ -15,18 +15,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"3bd21b06f863b910",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eTurnOffActionType",
-						"value": "AT_USE_NORMAL"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"3bd21b06f863b910",
+				"c8e36d4105f5548d",
 				{
 					"AddProperty": [
 						"m_eInputAction",

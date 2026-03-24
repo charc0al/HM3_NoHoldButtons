@@ -8,31 +8,15 @@
 	"frameworkVersion": "2.33.35",
 	"options": [
 		{
-			"name": "Blend",
-			"tooltip": "Blend in",
+			"name": "Generic",
+			"tooltip": "Controls a whole bunch of interactions in the game, too many to list. This will change most long press holds to single press interactions.",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/blend"]
+			"contentFolders": ["content/generic"]
 		},
 		{
-			"name": "Card Reader (new)!",
-			"tooltip": "Makes card reader instant press by switching it to the Open Door button",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": false,
-			"contentFolders": ["content/cardreader"]
-		},
-		{
-			"name": "Distractions",
-			"tooltip": "Distractions",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/distraction"]
-		},
-		{
-			"name": "Doors (new!)",
+			"name": "Doors",
 			"tooltip": "Switches long-press door interaction to the Open Door button for instant use",
 			"group": "main",
 			"type": "checkbox",
@@ -40,52 +24,107 @@
 			"contentFolders": ["content/door"]
 		},
 		{
-			"name": "Freelancer",
-			"tooltip": "Misc freelancer stuff",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/freelancer"]
-		},
-		{
-			"name": "Exits",
-			"tooltip": "Exit mission prompts",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/exit"]
-		},
-		{
-			"name": "Misc",
-			"tooltip": "Misc other hold prompts switched to single press. Too lazy to list them all here.",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/misc"]
-		},
-		{
-			"name": "Dump Body (not working yet)",
-			"tooltip": "Body container dump switched to Open Door key, possibly",
+			"name": "Card Reader",
+			"tooltip": "Makes card reader instant press by switching it to the Open Door button",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["content/dump"]
+			"contentFolders": ["content/cardreader"]
 		},
 		{
-			"name": "Poison (new!)",
-			"tooltip": "Switches poison to use the Open Door key for instant press interaction",
+			"name": "Poison",
+			"tooltip": "Switches poison action to use the Open Door key for instant press interaction",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/poison"]
 		},
 		{
-			"name": "Stove - Gas Leak (new!)",
-			"tooltip": "Turn on/off stove is instant press now, gas leak uses fire button",
+			"name": "Item Dump",
+			"tooltip": "Containers where you can conceal items, like trash bins",
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
+			"contentFolders": ["content/itemdump"]
+		},
+		{
+			"name": "Talk",
+			"tooltip": "Talk to NPC interaction",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/talk"]
+		},
+		{
+			"name": "Cannon",
+			"tooltip": "Loading the cannon",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/cannon"]
+		},
+		{
+			"name": "----- Options Below This Line PROBABLY Not Needed -----",
+			"tooltip": "If you checked all the boxes above this line, that should cover pretty much all the long press prompts in the game. Checkboxes below this were added earlier and only change the long press to hold instead of switching to the open door button, which can cause conflicts with opening doors if the prompt is near a door.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false
+		},
+		{
+			"name": "Distractions",
+			"tooltip": "Distractions",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/distraction"]
+		},
+		{
+			"name": "Freelancer",
+			"tooltip": "Misc freelancer stuff. Not needed with Generic enabled. Talk checkbox works for suppliers.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/freelancer"]
+		},
+		{
+			"name": "Exits",
+			"tooltip": "Exit mission prompts. Not needed with Generic enabled.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/exit"]
+		},
+		{
+			"name": "Stove Gas Leak - Fire Button",
+			"tooltip": "Switches Gas Leak to the fire button, feels nice",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
 			"contentFolders": ["content/gasleak"]
+		},
+		{
+			"name": "Blend",
+			"tooltip": "Blend in. Not needed with Generic enabled.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/blend"]
+		},
+		{
+			"name": "Dump Body (not working yet)",
+			"tooltip": "Don't use this, it does nothing. Use the 'Generic' option for instant body dumps in containers",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/dump"]
+		},
+		{
+			"name": "Misc",
+			"tooltip": "Misc other prompts, these are PROBABLY all covered by Generic and the other options, so you most likely don't need this option.",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/misc"]
 		}
 	],
 	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"

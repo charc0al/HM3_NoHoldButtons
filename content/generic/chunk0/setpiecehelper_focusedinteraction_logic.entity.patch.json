@@ -12,6 +12,20 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"0f4d215502c36edf",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
 		}
 	],
 	"patchVersion": 6
