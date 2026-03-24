@@ -19,7 +19,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eInputAction",
-						"value": "eGameInputActionShoot"
+						"value": "eGameInputActionDoor"
 					}
 				}
 			]
