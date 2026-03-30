@@ -28,7 +28,7 @@
 			"tooltip": "Makes card reader instant press by switching it to the Open Door button",
 			"group": "main",
 			"type": "checkbox",
-			"enabledByDefault": false,
+			"enabledByDefault": true,
 			"contentFolders": ["content/cardreader"]
 		},
 		{
@@ -68,7 +68,7 @@
 			"tooltip": "Misc freelancer stuff. Not needed with Generic enabled. Talk checkbox works for suppliers.",
 			"group": "main",
 			"type": "checkbox",
-			"enabledByDefault": false,
+			"enabledByDefault": true,
 			"contentFolders": ["content/freelancer"]
 		},
 		{

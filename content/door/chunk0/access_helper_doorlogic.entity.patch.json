@@ -15,12 +15,40 @@
 		},
 		{
 			"SubEntityOperation": [
+				"5f71af70c4751362",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4d33acd44f509e1a",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eActionType",
 						"value": "AT_USE_NORMAL"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d33acd44f509e1a",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
 				}
 			]
 		},
