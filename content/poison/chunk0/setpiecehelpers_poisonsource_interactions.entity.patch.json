@@ -7,12 +7,45 @@
 				"736f4743f47a4ec5",
 				{
 					"AddProperty": [
+						"m_bShowPromptInWorld",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"736f4743f47a4ec5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bShowUnusableAsGrayedInteraction",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"736f4743f47a4ec5",
+				{
+					"AddProperty": [
 						"m_eInputAction",
 						{
 							"type": "EHM5GameInputFlag",
 							"value": "eGameInputActionDoor"
 						}
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"99fbb77ff032c91d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bRequiresHitmanInFront",
+						"value": false
+					}
 				}
 			]
 		}

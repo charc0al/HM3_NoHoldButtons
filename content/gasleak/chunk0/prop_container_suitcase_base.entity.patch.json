@@ -1,0 +1,95 @@
+{
+	"tempHash": "003B73E5323E1682",
+	"tbluHash": "0001255D40A3470A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9e65af07d1273bc9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eHandToCheck",
+						"value": "EHTC_Left"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fafe10e3a394cfe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fafe10e3a394cfe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bShowPromptInWorld",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fafe10e3a394cfe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"058253ab47e29def",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f092bc411a4ce601",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActionType",
+						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f092bc411a4ce601",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f092bc411a4ce601",
+				{
+					"AddProperty": [
+						"m_bShowPromptInWorld",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

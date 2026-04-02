@@ -1,0 +1,73 @@
+{
+	"tempHash": "007513E636218697",
+	"tbluHash": "00F4852F16D7EFEE",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fdbae3cb93a36756",
+				{
+					"AddProperty": [
+						"m_bShowPromptInWorld",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fdbae3cb93a36756",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ab37f2064a7f27e0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bShowPromptInWorld",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ab37f2064a7f27e0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"76c76b126efe2cdf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bShowPromptInWorld",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"76c76b126efe2cdf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputFiberwire"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

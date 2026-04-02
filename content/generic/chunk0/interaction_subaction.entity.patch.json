@@ -6,6 +6,28 @@
 			"SubEntityOperation": [
 				"94efbdb3d72b0fb9",
 				{
+					"RemovePropertyByName": "m_ConditionList_Visible"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94efbdb3d72b0fb9",
+				{
+					"AddPropertyAliasConnection": [
+						"m_ConditionList_Visible",
+						{
+							"originalProperty": "m_ConditionList_Usable",
+							"originalEntity": "94efbdb3d72b0fb9"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94efbdb3d72b0fb9",
+				{
 					"SetPropertyValue": {
 						"property_name": "m_bShowUnusableAsGrayedInteraction",
 						"value": false
@@ -20,6 +42,28 @@
 					"SetPropertyValue": {
 						"property_name": "m_eActionType",
 						"value": "AT_USE_NORMAL"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94efbdb3d72b0fb9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fOverrideInteractionRangeValue",
+						"value": 0.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94efbdb3d72b0fb9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bOverrideInteractionRange",
+						"value": true
 					}
 				}
 			]

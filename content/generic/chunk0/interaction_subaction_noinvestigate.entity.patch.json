@@ -6,6 +6,28 @@
 			"SubEntityOperation": [
 				"8d3f75d05c8a615b",
 				{
+					"RemovePropertyByName": "m_ConditionList_Visible"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8d3f75d05c8a615b",
+				{
+					"AddPropertyAliasConnection": [
+						"m_ConditionList_Visible",
+						{
+							"originalProperty": "m_ConditionList_Usable",
+							"originalEntity": "8d3f75d05c8a615b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8d3f75d05c8a615b",
+				{
 					"SetPropertyValue": {
 						"property_name": "m_bShowUnusableAsGrayedInteraction",
 						"value": false
