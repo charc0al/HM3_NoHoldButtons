@@ -21,7 +21,7 @@
 			"group": "main",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/door"]
+			"contentFolders": ["content/door", "content/depositbox"]
 		},
 		{
 			"name": "Card Reader",
