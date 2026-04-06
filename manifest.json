@@ -72,6 +72,14 @@
 			"contentFolders": ["content/freelancer"]
 		},
 		{
+			"name": "Briefcases - Experimental",
+			"tooltip": "Testing briefcase",
+			"group": "main",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/suitcase"]
+		},
+		{
 			"name": "----- Options Below This Line PROBABLY Not Needed -----",
 			"tooltip": "If you checked all the boxes above this line, that should cover pretty much all the long press prompts in the game. Checkboxes below this were added earlier and only change the long press to hold instead of switching to the open door button, which can cause conflicts with opening doors if the prompt is near a door.",
 			"group": "main",
