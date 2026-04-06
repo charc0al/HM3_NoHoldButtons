@@ -6,4 +6,4 @@ Switches out a bunch of long-press button prompts with with normal press
 
 ---
 
-`Charc0al.NoHoldButtons` v1.2.3, by Charc0al. This README was automatically generated from the mod's manifest.
+`Charc0al.NoHoldButtons` v1.2.4, by Charc0al. This README was automatically generated from the mod's manifest.
