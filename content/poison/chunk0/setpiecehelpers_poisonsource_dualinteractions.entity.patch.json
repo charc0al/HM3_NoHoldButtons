@@ -1,0 +1,88 @@
+{
+	"tempHash": "0044F3E0FE32703F",
+	"tbluHash": "0043E8E5D339DE95",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"168c0019152b5d32",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a836f58643767cef",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5346c6096750e594",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"78eb6a6ac90fa8ec",
+				{
+					"AddProperty": [
+						"m_eActionType",
+						{ "type": "EActionType", "value": "AT_USE_NORMAL" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"78eb6a6ac90fa8ec",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"52384c6bdd6e8759",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
