@@ -48,10 +48,7 @@
 			"SubEntityOperation": [
 				"78eb6a6ac90fa8ec",
 				{
-					"AddProperty": [
-						"m_eActionType",
-						{ "type": "EActionType", "value": "AT_USE_NORMAL" }
-					]
+					"AddProperty": ["m_eActionType", { "type": "EActionType", "value": "AT_USE_NORMAL" }]
 				}
 			]
 		},
