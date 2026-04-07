@@ -21,7 +21,32 @@
 						"m_eInputAction",
 						{
 							"type": "EHM5GameInputFlag",
-							"value": "eGameInputActionShoot"
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7f1dab788311c131",
+				{
+					"AddProperty": [
+						"m_eActionType",
+						{ "type": "EActionType", "value": "AT_USE_NORMAL" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7f1dab788311c131",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
 						}
 					]
 				}

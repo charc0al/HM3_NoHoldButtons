@@ -1,0 +1,32 @@
+{
+	"tempHash": "00DFE6F696D67486",
+	"tbluHash": "00D67755CD5DA649",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b6dba39a251bfef1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputActionDoor"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"571fd5a55dbdeaa7",
+				{
+					"AddProperty": [
+						"m_eInputAction",
+						{
+							"type": "EHM5GameInputFlag",
+							"value": "eGameInputActionDoor"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
