@@ -1,0 +1,40 @@
+{
+	"tempHash": "008057ABD348DF09",
+	"tbluHash": "007C302D2BC5E5D6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fafe10e3a394cfe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputHolsterItem"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"058253ab47e29def",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputHolsterItem"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f092bc411a4ce601",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputHolsterItem"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

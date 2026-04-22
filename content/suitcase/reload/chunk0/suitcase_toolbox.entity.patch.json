@@ -1,0 +1,40 @@
+{
+	"tempHash": "003181A7AE6F65CC",
+	"tbluHash": "00A2FB589866E36D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fafe10e3a394cfe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputReload"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"058253ab47e29def",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputReload"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f092bc411a4ce601",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eInputAction",
+						"value": "eGameInputReload"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

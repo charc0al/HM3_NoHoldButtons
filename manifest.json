@@ -72,59 +72,147 @@
 			"contentFolders": ["content/freelancer"]
 		},
 		{
-			"name": "----- Options Below This Line PROBABLY Not Needed -----",
-			"tooltip": "If you checked all the boxes above this line, that should cover pretty much all the long press prompts in the game. Checkboxes below this were added earlier and only change the long press to hold instead of switching to the open door button, which can cause conflicts with opening doors if the prompt is near a door.",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": false
+			"name": "Vanilla",
+			"tooltip": "No change to open door button",
+			"group": "Open Door Button",
+			"type": "select",
+			"enabledByDefault": true
 		},
 		{
-			"name": "Distractions",
-			"tooltip": "Distractions",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Agility",
+			"group": "Open Door Button",
+			"type": "select",
+			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
 			"enabledByDefault": false,
-			"contentFolders": ["content/distraction"]
+			"contentFolders": ["content/opendoor/agility"]
 		},
 		{
-			"name": "Exits",
-			"tooltip": "Exit mission prompts. Not needed with Generic enabled.",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Reload",
+			"group": "Open Door Button",
+			"type": "select",
+			"tooltip": "Default R on keyboard or RB/R1 on gamepads",
 			"enabledByDefault": false,
-			"contentFolders": ["content/exit"]
+			"contentFolders": ["content/opendoor/reload"]
 		},
 		{
-			"name": "Stove Gas Leak - Fire Button",
-			"tooltip": "Switches Gas Leak to the fire button, feels nice",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Fire",
+			"group": "Open Door Button",
+			"type": "select",
+			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
 			"enabledByDefault": false,
-			"contentFolders": ["content/gasleak"]
+			"contentFolders": ["content/opendoor/fire"]
 		},
 		{
-			"name": "Blend",
-			"tooltip": "Blend in. Not needed with Generic enabled.",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Sprint",
+			"group": "Open Door Button",
+			"type": "select",
+			"tooltip": "The sprint button. Left Shift on keyboards or LB/L1 on gamepads",
 			"enabledByDefault": false,
-			"contentFolders": ["content/blend"]
+			"contentFolders": ["content/opendoor/sprint"]
+		},
+		
+		
+		{
+			"name": "Vanilla",
+			"tooltip": "No change to conceal/retrieve",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"enabledByDefault": true
 		},
 		{
-			"name": "Dump Body (not working yet)",
-			"tooltip": "Don't use this, it does nothing. Use the 'Generic' option for instant body dumps in containers",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Agility",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
 			"enabledByDefault": false,
-			"contentFolders": ["content/dump"]
+			"contentFolders": ["content/suitcase/agility"]
 		},
 		{
-			"name": "Misc",
-			"tooltip": "Misc other prompts, these are PROBABLY all covered by Generic and the other options, so you most likely don't need this option.",
-			"group": "main",
-			"type": "checkbox",
+			"name": "Open Door",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "Default E on keyboard or Y/Triangle on gamepads",
 			"enabledByDefault": false,
-			"contentFolders": ["content/misc"]
+			"contentFolders": ["content/suitcase/door"]
+		},
+		{
+			"name": "Reload",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "Default R on keyboard or RB/R1 on gamepads",
+			"enabledByDefault": false,
+			"contentFolders": ["content/suitcase/reload"]
+		},
+		{
+			"name": "Fire",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
+			"enabledByDefault": false,
+			"contentFolders": ["content/suitcase/fire"]
+		},
+		{
+			"name": "Holster",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "The draw/holster button. D-pad Up on gamepads.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/suitcase/holster"]
+		},
+		{
+			"name": "Drop",
+			"group": "Suitcase Conceal and Retrieve",
+			"type": "select",
+			"tooltip": "The drop item button. D-pad Down on gamepads.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/suitcase/drop"]
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "No change to item pickup controls",
+			"group": "Pick Up Items",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "Open Door",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "Use same input as open door to pick up items. You will have to be more conscious of where you're looking when opening a door if there's items around.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/door"]
+		},
+		{
+			"name": "Reload",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "Use reload button to pick up items.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/reload"]
+		},
+		{
+			"name": "Holster",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "Use holster button to pick up items.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/holster"]
+		},
+		{
+			"name": "Switch Shoulder",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "Use switch shoulder button to pick up items. Still switches camera shoulder if that's enabled.",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/shoulder"]
+		},
+		{
+			"name": "Fire",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/fire"]
 		}
 	],
 	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
