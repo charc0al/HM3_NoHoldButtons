@@ -106,12 +106,10 @@
 			"name": "Sprint",
 			"group": "Open Door Button",
 			"type": "select",
-			"tooltip": "The sprint button. Left Shift on keyboards or LB/L1 on gamepads",
+			"tooltip": "The sprint button. Left Shift on keyboards or LB/L1 on gamepads. Lets you sprint right through closed doors and auto-close them behind you if you just keep holding the button.",
 			"enabledByDefault": false,
 			"contentFolders": ["content/opendoor/sprint"]
 		},
-		
-		
 		{
 			"name": "Vanilla",
 			"tooltip": "No change to conceal/retrieve",
@@ -160,14 +158,6 @@
 			"contentFolders": ["content/suitcase/holster"]
 		},
 		{
-			"name": "Drop",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "The drop item button. D-pad Down on gamepads.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/drop"]
-		},
-		{
 			"name": "Vanilla",
 			"tooltip": "No change to item pickup controls",
 			"group": "Pick Up Items",
@@ -175,10 +165,18 @@
 			"enabledByDefault": true
 		},
 		{
+			"name": "Agility",
+			"group": "Pick Up Items",
+			"type": "select",
+			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pickup/agility"]
+		},
+		{
 			"name": "Open Door",
 			"group": "Pick Up Items",
 			"type": "select",
-			"tooltip": "Use same input as open door to pick up items. You will have to be more conscious of where you're looking when opening a door if there's items around.",
+			"tooltip": "Will allow instant press pickup on gamepads instead of long press. Default E on keyboard or Y/Triangle on gamepad",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pickup/door"]
 		},

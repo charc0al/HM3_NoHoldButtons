@@ -7,17 +7,6 @@
 				"8d3f75d05c8a615b",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_eActionType",
-						"value": "AT_USE_NORMAL"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"8d3f75d05c8a615b",
-				{
-					"SetPropertyValue": {
 						"property_name": "m_eInputAction",
 						"value": "eGameInputReload"
 					}

@@ -8,7 +8,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eInputAction",
-						"value": "eGameInputCamSwitch"
+						"value": "eGameInputGuideAction"
 					}
 				}
 			]
