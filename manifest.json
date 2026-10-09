@@ -1,217 +1,266 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.3.0",
-	"id": "Charc0al.NoHoldButtons",
-	"name": "No Hold Buttons",
-	"description": "Switches out a bunch of long-press button prompts with with normal press",
-	"authors": ["Charc0al"],
-	"frameworkVersion": "2.33.35",
-	"options": [
-		{
-			"name": "Generic",
-			"tooltip": "Controls a whole bunch of interactions in the game, too many to list. This will change most long press holds to single press interactions.",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/generic"]
-		},
-		{
-			"name": "Doors",
-			"tooltip": "Switches long-press door interaction to the Open Door button for instant use",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/door", "content/depositbox"]
-		},
-		{
-			"name": "Card Reader",
-			"tooltip": "Makes card reader instant press by switching it to the Open Door button",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/cardreader"]
-		},
-		{
-			"name": "Poison",
-			"tooltip": "Switches poison action to use the Open Door key for instant press interaction",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/poison"]
-		},
-		{
-			"name": "Item Dump",
-			"tooltip": "Containers where you can conceal items, like trash bins",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/itemdump"]
-		},
-		{
-			"name": "Talk",
-			"tooltip": "Talk to NPC interaction",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/talk"]
-		},
-		{
-			"name": "Cannon",
-			"tooltip": "Loading the cannon",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/cannon"]
-		},
-		{
-			"name": "Freelancer",
-			"tooltip": "Misc freelancer stuff. Not needed with Generic enabled. Talk checkbox works for suppliers.",
-			"group": "main",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/freelancer"]
-		},
-		{
-			"name": "Vanilla",
-			"tooltip": "No change to open door button",
-			"group": "Open Door Button",
-			"type": "select",
-			"enabledByDefault": true
-		},
-		{
-			"name": "Agility",
-			"group": "Open Door Button",
-			"type": "select",
-			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
-			"enabledByDefault": false,
-			"contentFolders": ["content/opendoor/agility"]
-		},
-		{
-			"name": "Reload",
-			"group": "Open Door Button",
-			"type": "select",
-			"tooltip": "Default R on keyboard or RB/R1 on gamepads",
-			"enabledByDefault": false,
-			"contentFolders": ["content/opendoor/reload"]
-		},
-		{
-			"name": "Fire",
-			"group": "Open Door Button",
-			"type": "select",
-			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
-			"enabledByDefault": false,
-			"contentFolders": ["content/opendoor/fire"]
-		},
-		{
-			"name": "Sprint",
-			"group": "Open Door Button",
-			"type": "select",
-			"tooltip": "The sprint button. Left Shift on keyboards or LB/L1 on gamepads. Lets you sprint right through closed doors and auto-close them behind you if you just keep holding the button.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/opendoor/sprint"]
-		},
-		{
-			"name": "Vanilla",
-			"tooltip": "No change to conceal/retrieve",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"enabledByDefault": true
-		},
-		{
-			"name": "Agility",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/agility"]
-		},
-		{
-			"name": "Open Door",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "Default E on keyboard or Y/Triangle on gamepads",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/door"]
-		},
-		{
-			"name": "Reload",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "Default R on keyboard or RB/R1 on gamepads",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/reload"]
-		},
-		{
-			"name": "Fire",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/fire"]
-		},
-		{
-			"name": "Holster",
-			"group": "Suitcase Conceal and Retrieve",
-			"type": "select",
-			"tooltip": "The draw/holster button. D-pad Up on gamepads.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/suitcase/holster"]
-		},
-		{
-			"name": "Vanilla",
-			"tooltip": "No change to item pickup controls",
-			"group": "Pick Up Items",
-			"type": "select",
-			"enabledByDefault": true
-		},
-		{
-			"name": "Agility",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/agility"]
-		},
-		{
-			"name": "Open Door",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "Will allow instant press pickup on gamepads instead of long press. Default E on keyboard or Y/Triangle on gamepad",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/door"]
-		},
-		{
-			"name": "Reload",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "Use reload button to pick up items.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/reload"]
-		},
-		{
-			"name": "Holster",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "Use holster button to pick up items.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/holster"]
-		},
-		{
-			"name": "Switch Shoulder",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "Use switch shoulder button to pick up items. Still switches camera shoulder if that's enabled.",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/shoulder"]
-		},
-		{
-			"name": "Fire",
-			"group": "Pick Up Items",
-			"type": "select",
-			"tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pickup/fire"]
-		}
-	],
-	"updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
+  "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+  "version": "1.4.0",
+  "id": "Charc0al.NoHoldButtons",
+  "name": "No Hold Buttons",
+  "description": "Switches out a bunch of long-press button prompts with with normal press",
+  "authors": [
+    "Charc0al"
+  ],
+  "frameworkVersion": "2.33.42",
+  "options": [
+    {
+      "name": "Generic",
+      "tooltip": "Controls a whole bunch of interactions in the game, too many to list. This will change most long press holds to single press interactions.",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/generic"
+      ]
+    },
+    {
+      "name": "Doors",
+      "tooltip": "Switches long-press door interaction to the Open Door button for instant use",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/door",
+        "content/depositbox"
+      ]
+    },
+    {
+      "name": "Card Reader",
+      "tooltip": "Makes card reader instant press by switching it to the Open Door button",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/cardreader"
+      ]
+    },
+    {
+      "name": "Poison",
+      "tooltip": "Switches poison action to use the Open Door key for instant press interaction",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/poison"
+      ]
+    },
+    {
+      "name": "Item Dump",
+      "tooltip": "Containers where you can conceal items, like trash bins",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/itemdump"
+      ]
+    },
+    {
+      "name": "Talk",
+      "tooltip": "Talk to NPC interaction",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/talk"
+      ]
+    },
+    {
+      "name": "Cannon",
+      "tooltip": "Loading the cannon",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/cannon"
+      ]
+    },
+    {
+      "name": "Freelancer",
+      "tooltip": "Misc freelancer stuff. Not needed with Generic enabled. Talk checkbox works for suppliers.",
+      "group": "main",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/freelancer"
+      ]
+    },
+    {
+      "name": "Vanilla",
+      "tooltip": "No change to open door button",
+      "group": "Open Door Button",
+      "type": "select",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Agility",
+      "group": "Open Door Button",
+      "type": "select",
+      "tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/opendoor/agility"
+      ]
+    },
+    {
+      "name": "Reload",
+      "group": "Open Door Button",
+      "type": "select",
+      "tooltip": "Default R on keyboard or RB/R1 on gamepads",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/opendoor/reload"
+      ]
+    },
+    {
+      "name": "Fire",
+      "group": "Open Door Button",
+      "type": "select",
+      "tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/opendoor/fire"
+      ]
+    },
+    {
+      "name": "Sprint",
+      "group": "Open Door Button",
+      "type": "select",
+      "tooltip": "The sprint button. Left Shift on keyboards or LB/L1 on gamepads. Lets you sprint right through closed doors and auto-close them behind you if you just keep holding the button.",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/opendoor/sprint"
+      ]
+    },
+    {
+      "name": "Vanilla",
+      "tooltip": "No change to conceal/retrieve",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Agility",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/suitcase/agility"
+      ]
+    },
+    {
+      "name": "Open Door",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "tooltip": "Default E on keyboard or Y/Triangle on gamepads",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/suitcase/door"
+      ]
+    },
+    {
+      "name": "Reload",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "tooltip": "Default R on keyboard or RB/R1 on gamepads",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/suitcase/reload"
+      ]
+    },
+    {
+      "name": "Fire",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/suitcase/fire"
+      ]
+    },
+    {
+      "name": "Holster",
+      "group": "Suitcase Conceal and Retrieve",
+      "type": "select",
+      "tooltip": "The draw/holster button. D-pad Up on gamepads.",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/suitcase/holster"
+      ]
+    },
+    {
+      "name": "Vanilla",
+      "tooltip": "No change to item pickup controls",
+      "group": "Pick Up Items",
+      "type": "select",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Agility",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "Vault/climb button keyboard or A/X on Xbox/PS",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/agility"
+      ]
+    },
+    {
+      "name": "Open Door",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "Will allow instant press pickup on gamepads instead of long press. Default E on keyboard or Y/Triangle on gamepad",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/door"
+      ]
+    },
+    {
+      "name": "Reload",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "Use reload button to pick up items.",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/reload"
+      ]
+    },
+    {
+      "name": "Holster",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "Use holster button to pick up items.",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/holster"
+      ]
+    },
+    {
+      "name": "Switch Shoulder",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "Use switch shoulder button to pick up items. Still switches camera shoulder if that's enabled.",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/shoulder"
+      ]
+    },
+    {
+      "name": "Fire",
+      "group": "Pick Up Items",
+      "type": "select",
+      "tooltip": "The fire button. Left mouse or Right Trigger. Can interfere with blind-firing",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pickup/fire"
+      ]
+    }
+  ],
+  "updateCheck": "https://github.com/charc0al/HM3_NoHoldButtons/releases/latest/download/updates.json"
 }
