@@ -1,0 +1,49 @@
+{
+  "tempHash": "007E4609C12FF957",
+  "tbluHash": "0011206D5D09913C",
+  "patch": [
+    {
+      "SubEntityOperation": [
+        "1304bfa326ad0d1b",
+        {
+          "AddProperty": [
+            "m_eInputAction",
+            {
+              "type": "EHM5GameInputFlag",
+              "value": "eGameInputActionDoor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "bbce382059dcdc9a",
+        {
+          "AddProperty": [
+            "m_eInputAction",
+            {
+              "type": "EHM5GameInputFlag",
+              "value": "eGameInputActionDoor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "f1410abedb7f652a",
+        {
+          "AddProperty": [
+            "m_eInputAction",
+            {
+              "type": "EHM5GameInputFlag",
+              "value": "eGameInputActionDoor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}
