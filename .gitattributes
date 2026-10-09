@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep SDK source in Git, but omit it from GitHub source archives.
+/sdk_plugin_src export-ignore
+/sdk_plugin_src/** export-ignore

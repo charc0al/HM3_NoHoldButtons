@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.20)
+project(NoHoldBodyDump LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(SDK_DIR "" CACHE PATH "Extracted ZHMModSDK 4.1.1 developer package")
+if(NOT EXISTS "${SDK_DIR}/CMakeLists.txt")
+    message(FATAL_ERROR "Set SDK_DIR to the extracted ZHMModSDK 4.1.1 developer package directory.")
+endif()
+add_subdirectory("${SDK_DIR}" sdk)
+add_library(NoHoldBodyDump SHARED NoHoldBodyDump.cpp)
+target_include_directories(NoHoldBodyDump PRIVATE compat)
+target_compile_definitions(NoHoldBodyDump PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX)
+target_compile_options(NoHoldBodyDump PRIVATE /W4 /EHsc /utf-8)
+target_link_libraries(NoHoldBodyDump PRIVATE ZHMModSDK implot bcrypt)
+set_target_properties(NoHoldBodyDump PROPERTIES
+    MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_BINARY_DIR}/bin")
